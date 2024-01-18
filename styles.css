@@ -2,15 +2,18 @@
 :root{
 	background-color: rgb(135, 206, 235);
 }
-.paragraph:first-child{
-		color: white;
-		background-color: black;
-}
-.paragraph:nth-child(2){
+p{
 	color: black;
-}
-.paragraph:last-child{
-	color:red;
+	&:first-child{
+		color:white;
+		background-color: black;
+	}
+	&:nth-child(2){
+		color: black;
+	}
+	&:last-child{
+		color: red;
+	}
 }
 li{
 	background-color: gray;
