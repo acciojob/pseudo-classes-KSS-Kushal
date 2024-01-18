@@ -3,7 +3,6 @@
 	background-color: rgb(135, 206, 235);
 }
 p{
-	color: black;
 	&:first-child{
 		color:white;
 		background-color: black;
