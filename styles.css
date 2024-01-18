@@ -2,16 +2,16 @@
 :root{
 	background-color: rgb(135, 206, 235);
 }
-p:first-of-type {
+p:first-child {
   color: white;
   background-color: black;
 }
 
-p:first-of-type + p {
+p:nth-child(2) {
   color: black;
 }
 
-p:first-of-type + p + p {
+p:last-child {
   color: red;
 }
 li{
