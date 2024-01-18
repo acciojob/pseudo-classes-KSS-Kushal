@@ -2,17 +2,17 @@
 :root{
 	background-color: rgb(135, 206, 235);
 }
-p{
-	&:first-child{
-		color:white;
-		background-color: black;
-	}
-	&:nth-child(2){
-		color: black;
-	}
-	&:last-child{
-		color: red;
-	}
+p:first-of-type {
+  color: white;
+  background-color: black;
+}
+
+p:first-of-type + p {
+  color: black;
+}
+
+p:first-of-type + p + p {
+  color: red;
 }
 li{
 	background-color: gray;
